@@ -31,7 +31,8 @@ function Home() {
 
               <h1 className="heading-name">
                 Our mission is to empower businesses by crafting 
-                scalable and intelligent systems{" "} that drive growth and success in a dynamic digital world.
+                scalable and intelligent systems{" "} that drive growth and success in a dynamic
+                digital world.
               </h1>
             </Col>
 
