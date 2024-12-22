@@ -330,7 +330,7 @@ content: ' ';
   background-image: linear-gradient(to right, black 0%, #cd5ff8 51%, black 100%); /* Desired gradient colors */
   border: 2px solid white; 
   padding: 0.5rem 1.3rem;
-  font-size: 1rem;
+  font-size: 1rem
   border-radius: 20px;
   cursor: pointer;
   color: white; 
@@ -349,7 +349,8 @@ content: ' ';
 
 
 
-/*{ Our Services }*/
+{/* Our Services */}
+/* Section Styling */
 .services {
   position: relative;
   padding-top: 100px;

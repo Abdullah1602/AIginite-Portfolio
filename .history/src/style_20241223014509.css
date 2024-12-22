@@ -28,6 +28,7 @@ body{
     margin-right: auto;
 }
 
+
 #preloader {
   position: fixed;
   top: 0;
@@ -349,7 +350,8 @@ content: ' ';
 
 
 
-/*{ Our Services }*/
+{/* Our Services */}
+/* Section Styling */
 .services {
   position: relative;
   padding-top: 100px;

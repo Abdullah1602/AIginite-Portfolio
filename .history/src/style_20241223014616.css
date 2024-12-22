@@ -323,9 +323,6 @@ content: ' ';
   margin: 1px;
   padding: 21px;
 }
-
-
-
 .about .row .content .btn {
   background-image: linear-gradient(to right, black 0%, #cd5ff8 51%, black 100%); /* Desired gradient colors */
   border: 2px solid white; 
