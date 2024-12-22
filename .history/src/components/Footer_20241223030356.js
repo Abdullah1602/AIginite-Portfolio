@@ -31,9 +31,9 @@ function Footer() {
         <Col md={3} className="contact-item">
         <div>
         <i className="fas fa-map-marker-alt"></i>
-        <span className="highlight" style={{ display: "block" }}>📍Business Incubation Centre</span>
+        <span className="highlight" style={{ display: "block" }}>📍Business Incubation Centre
         <span>
-        <span className="highlight">Punjab University Lahore, Pakistan</span>
+          Punjab University Lahore,Pakistan</span>
         </span>
       </div>
       
@@ -43,10 +43,12 @@ function Footer() {
       {/* Bottom Section */}
       <Row className="bottom-footer">
         <Col md={3} className="text-left">
-        <p className="footer-bottom-text">@ Copyright 2024</p>
+        <p className="footer-bottom-text">@ Copyright 2024 |Terms & Conditions| Privacy Policy</p>
 
         </Col>
-        
+        <Col md={3} className="text-right">
+          <p>Created by: <span className="highlight">Aiginite Team</span></p>
+        </Col>
         <Col md={3} className="social-icons-container">
           <p>Connect with us on social media</p>
           <ul className="home-about-social-links">

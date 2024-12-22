@@ -157,10 +157,10 @@ function Home() {
           <div className="content">
             <h1 className="H1contact">
               We help businesses innovate and thrive by leveraging advanced AI and cutting-edge
-              technology.
+              <span className="highlight"> technology</span>.
             </h1>
             <p>
-              Ready to discuss your project?
+              Ready to discuss your <span className="highlight">project</span>?
             </p>
             <a
               href="https://forms.fillout.com/t/ihGyAo5rCPus"
@@ -201,7 +201,7 @@ function Home() {
                 </p>
 
                 {/* Online Dot and Connect Line */}
-                <p style={{ fontSize: "1em", color: "#ffffff", margin: "0 0 16px -13px" }}>
+                <p style={{ fontSize: "1em", color: "#ffffff", margin: "0 0 16px -39px" }}>
                   <span
                     style={{
                       display: "inline-block",
@@ -232,19 +232,22 @@ function Home() {
               </div>
             </Col>    {/* Introduction Section */}
             <Col md={7} style={{ color: "#ddd", padding: "0 0 75px 0", marginLeft: "20px" }}>
-            <p
-            style={{
-              fontSize: "1.4em",
-              lineHeight: "1.8",
-              marginTop: "20px",
-            }}
-          >
-            Muhammad Abdullah specializes in leveraging Machine Learning (ML) and
-            Artificial Intelligence (AI) to develop innovative, scalable solutions.
-            With a background in BSIT studies at PUCIT, his work focuses on empowering
-            businesses to solve complex challenges and thrive in the ever-evolving
-            digital world.
-          </p>
+              <p
+                style={{
+                  fontSize: "1.4em",
+                  lineHeight: "1.8",
+                  marginTop: "20px",
+                }}
+              >
+                <span className="highlight">Muhammad Abdullah</span> specializes in leveraging
+                <span className="highlight"> Machine Learning (ML)</span> and
+                <span className="highlight"> Artificial Intelligence (AI)</span> to develop
+                innovative, scalable solutions. With a background in
+                <span className="highlight"> BSIT</span> studies at
+                <span className="highlight"> PUCIT</span>, his work focuses on empowering
+                businesses to solve <span className="highlight">complex challenges</span> and thrive
+                in the ever-evolving <span className="highlight">digital world</span>.
+              </p>
 
 
 

@@ -327,8 +327,7 @@ content: ' ';
 
 
 .about .row .content .btn {
-  background-color: #ad5ccf;
-
+  background-image: linear-gradient(to right, #000000, #cd5ff8);
  /* Desired gradient colors */
   border: 2px solid white; 
   padding: 0.5rem 1.3rem;
@@ -345,7 +344,7 @@ content: ' ';
 
 .about .row .content .btn:hover {
   background-position: right center;
-  border-color: #593d68; /* Change border to black on hover */
+  border-color: #cd5ff8; /* Change border to black on hover */
 }
 
 
