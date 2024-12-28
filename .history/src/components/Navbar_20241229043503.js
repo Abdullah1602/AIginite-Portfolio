@@ -8,7 +8,7 @@ import {
   AiOutlineUser,
   AiOutlineMail,
   AiOutlineAppstore,
-  AiOutlineFundProjectionScreen, // Make sure to import the correct icon for Projects
+  AiOutlineProject, // Make sure to import the correct icon for Projects
 } from "react-icons/ai";
 
 function NavBar() {
@@ -96,7 +96,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <Nav.Link as="div">
-                  <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Projects
+                  <AiOutlineProject style={{ marginBottom: "2px" }} /> Projects
                 </Nav.Link>
               </ScrollLink>
             </Nav.Item>
