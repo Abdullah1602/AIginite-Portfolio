@@ -258,18 +258,19 @@ function Home() {
               </div>
             </Col>    {/* Introduction Section */}
             <Col md={7} style={{ color: "#ddd", padding: "0 0 75px 0", marginLeft: "20px" }}>
-            <p
-  style={{
-    fontSize: "1.4em",
-    lineHeight: "1.8",
-    marginTop: "20px",
-  }}
->
-  Muhammad Abdullah specializes in leveraging Machine Learning (ML) and
-  Artificial Intelligence (AI) to develop innovative, scalable solutions.
-  His work focuses on empowering businesses to solve complex challenges and thrive in the ever-evolving
-  digital world.
-</p>
+              <p
+              style={{
+                fontSize: "1.4em",
+                lineHeight: "1.8",
+                marginTop: "20px",
+              }}
+            >
+              Muhammad Abdullah specializes in leveraging Machine Learning (ML) and
+              Artificial Intelligence (AI) to develop innovative, scalable solutions.
+              With a background in BSIT studies at PUCIT, his work focuses on empowering
+              businesses to solve complex challenges and thrive in the ever-evolving
+              digital world.
+            </p>
 
 
 
