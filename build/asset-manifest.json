@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd5a1a95.css",
+    "main.js": "/static/js/main.7eb95970.js",
+    "static/media/AB.png": "/static/media/AB.ed46fdf53553bcfdb14e.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/AIGINITE_SOLUTIONS_Transperent.png": "/static/media/AIGINITE_SOLUTIONS_Transperent.ee7b9d49187aeafae858.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.cd5a1a95.css.map": "/static/css/main.cd5a1a95.css.map",
+    "main.7eb95970.js.map": "/static/js/main.7eb95970.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd5a1a95.css",
+    "static/js/main.7eb95970.js"
+  ]
+}

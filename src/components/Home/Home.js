@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Card from 'react-bootstrap/Card';
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import abImage from "../../Assets/AB.png"; // CEO and Co-Founder image
+import tableauImage from "../../Assets/Tableau.png";
 
 
 
@@ -147,6 +149,30 @@ function Home() {
           </Col>
         </Row>
       </section>
+
+      {/* Our Projects Section */}
+      <section id="services" className="services">
+        <h1 className="heading">
+          <span className="highlight">Our Projects</span>
+        </h1>
+          <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+        
+            <Col md={4} className="project-card">
+              <Card className="project-card-view">
+                <Card.Img variant="top" src={tableauImage} alt="card-img" />
+                <Card.Body>
+                  <h3 className="highlight">Geographic Loan Analysis Dashboard</h3>
+                  <Card.Text style={{ textAlign: "justify" }}>
+                  Tableau dashboard integrates Excel and GeoJSON data to create a dual-axis map displaying regional deprivation and loan specifics. Featuring interactive filters and detailed tooltips, it offers an intuitive interface for exploring complex data, facilitating informed decision-making through clear visual insights.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+    </section>
+    
+      
+      
 
       {/* Contact Us */}
       <section id="contact" className="about"> 
